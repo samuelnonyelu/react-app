@@ -7,8 +7,8 @@ function Header(){
     return(
         <>
             <header>
-                <nav>
-                    <img src={logo} alt="react logo" style={{ width: '40px'}}/>
+                <nav className="nav--main">
+                    <img src={logo} className="img-logo" alt="react logo"/>
                     <ul className="nav-items">
                         <li>Pricing</li>
                         <li>About</li>
@@ -22,7 +22,7 @@ function Header(){
 function MainContent(){
     return(
         <>
-            <h1>Why I started learning react</h1>
+            <h1 className="header">Why I started learning react</h1>
             <ol>
                 <li>I wanted to learn a new skill</li>
                 <li>I want to make money with it</li>
@@ -36,7 +36,7 @@ function MainContent(){
 function Footer(){
     return(
         <>
-            <footer>
+            <footer className="footer">
                 <small>© 2023 Nonyelu development. All rights reserved.</small>
             </footer>
         </>

@@ -1,5 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#root{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav--main{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}
 .nav-items{
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    padding: 0;
+}
+.nav-items > *{
+    margin-left: 2em;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+}
+.img-logo{
+    width: 50px;
+}
+.header{
+    font-size: 4em;
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    padding: 1em;
 }
