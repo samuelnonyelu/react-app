@@ -1,29 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./styles.css";
-import logo from "./images/react-logo.svg";
+import Header from "./Header.js"; //./ denotes a file in my project while if it doesn't have ./ it means its a package in my dependencies
 
-function Header(){
-    return(
-        <>
-            <header>
-                <nav className="nav--main">
-                    <img src={logo} className="img-logo" alt="react logo"/>
-                    <ul className="nav-items">
-                        <li>Pricing</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
-                </nav>
-            </header>
-        </>
-    )
-}
 function MainContent(){
     return(
         <>
-            <h1 className="header">Why I started learning react</h1>
-            <ol>
+            <h1 className="title">Why I started learning react</h1>
+            <ol className="main-list">
                 <li>I wanted to learn a new skill</li>
                 <li>I want to make money with it</li>
                 <li>React is currently a very popular front-end framework</li>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 *{
     box-sizing: border-box;
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     margin: 2em 0;
+        
 }
 .nav-items{
     list-style: none;
@@ -23,18 +25,24 @@
 }
 .nav-items > *{
     margin-left: 2em;
-    font-family: 'Playfair Display', serif;
+    font-family: serif;
     font-size: 1.2em;
 }
 .img-logo{
     width: 50px;
 }
-.header{
+.title{
     font-size: 4em;
     font-family: 'Aboreto', cursive;
     text-align: center;
     margin-bottom: 0.8em;
 }
+
+.main-list{
+    list-style-type: square;
+    font-family: 'Lora', serif;
+}
+
 .footer{
     position: fixed;
     bottom: 0;
